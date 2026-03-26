@@ -12,8 +12,8 @@
 import spacy
 
 
-chat_data = spacy.load("pt_core_news_sm")
+pln = spacy.load("pt_core_news_sm")
 import pt_core_news_sm
-chat_data = pt_core_news_sm.load()
-doc = chat_data("Esta é uma frase.")
+pln = pt_core_news_sm.load()
+doc = pln("Esta é uma frase de teste simples.")
 print([(w.text, w.pos_) for w in doc])
