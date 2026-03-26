@@ -29,7 +29,7 @@ doc = pln(f"{user_input}")
     dep_ - relação de dependência sintática do token em relação a outros tokens na frase (ex: sujeito, objeto, predicado, etc).
 """
 for token in doc:
-    print(f"Token: {token.text}, POS: {token.pos_}, Lemma: {token.lemma_}, Dep: {token.dep_}")
+    print(f"Token: {token.text}, Tipo de Palavra: {token.pos_}, Forma Raiz: {token.lemma_}, Dependencia Sintática: {token.dep_}, É Letra: {token.is_alpha}")
 
 ## imprime uma lista de tuplas contendo o texto do token e sua respectiva parte do discurso (POS)
 # print([(w.text, w.pos_) for w in doc])
