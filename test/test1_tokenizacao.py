@@ -22,6 +22,7 @@ user_input = input("Digite uma frase para análise: ")
 doc = pln(f"{user_input}")
 
 
+##### Tokenização e Análise de Texto com Spacy #####
 """
     iteração sobre os tokens do documento e impressão de suas características (texto, parte do discurso, lema e dependência sintática)
     pos_ - parte do discurso dos tokens (ex: substantivo, verbo, adjetivo, etc)
