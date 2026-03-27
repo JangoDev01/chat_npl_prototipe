@@ -29,11 +29,7 @@ user_input = input("Como possso te ajudar hoje: ")
 doc = pln(f"{user_input}")
 
 
-
 ##### Buscando Semelhanças entre palavras #####
-"""
-
-"""
 
 # cria um dicionário para mapear as palavras do corpus em minúsculas para suas formas originais (com acentos e maiúsculas)
 corpus_lower = {word.lower(): word for word in corpus_data}
