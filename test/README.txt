@@ -1,0 +1,1 @@
+Pasta para os arquivos de testes de funcionalidades que eu for aprendendo antes de desenvolver um prototipo

@@ -1,0 +1,1 @@
+Essa pasta esta reservada aos prototipos que desenvolverei antes de criar o projeto principal
