@@ -6,7 +6,7 @@ with open("./model/medical_data.json", "r") as f:
     medical_data = json.load(f)
 
 ## variavel que armazena o modelo de linguagem em português
-pln = spacy.load("pt_core_news_sm")
+pln = spacy.load("pt_core_news_md")
 pln = pt_data.load()
 
 corpus_data = [
