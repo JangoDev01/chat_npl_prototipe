@@ -28,6 +28,8 @@ corpus_data = ["gato", "cachorro", "carro", "bicicleta", "avião",
 user_input = input("Como possso te ajudar hoje: ")
 doc = pln(f"{user_input}")
 
+
+
 ##### Buscando Semelhanças entre palavras #####
 """
 
